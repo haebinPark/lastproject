@@ -1,0 +1,179 @@
+/*---------------------
+  room-reservation
+-----------------------*/
+h4.green {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: "Cabin", sans-serif !important;
+}
+
+/*h4.green{
+	margin-bottom: 8px !important;
+}*/
+
+.px-2{
+	margin-left:0 !important;
+	font-size:16px;
+}
+
+.mb-2{
+	margin-left:0 !important;
+	width:100%;
+}
+
+.bg-white{
+	margin-bottom: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5392f9 !important;
+    border-color: #5392f9 !important;
+}
+
+/*---------------------
+ Section
+-----------------------*/
+
+.testimonial {
+	padding-top: 100px;
+}
+
+.testimonial__pic img {
+	min-width: 100%;
+}
+
+.testimonial__text {
+	padding-left: 70px;
+	padding-top: 35px;
+}
+
+.testimonial__text .section-title {
+	text-align: left;
+	margin-bottom: 45px;
+}
+
+.testimonial__slider__content {
+	position: relative;
+}
+
+.testimonial__slider.owl-carousel .owl-stage-outer {
+	margin-bottom: 50px;
+}
+
+.testimonial__slider.owl-carousel .owl-nav {
+	position: absolute;
+	right: 0;
+	bottom: -70px;
+}
+
+.testimonial__slider.owl-carousel .owl-nav button {
+	font-size: 20px;
+	color: #19191A;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.testimonial__slider.owl-carousel .owl-nav button:last-child {
+	margin-right: 0;
+}
+
+.testimonial__slider.owl-carousel .owl-nav button:hover {
+	background: #19191A;
+	color: #ffffff;
+}
+
+.testimonial__slider.owl-carousel .owl-dots {
+	display: none;
+}
+
+.testimonial__item {
+	position: relative;
+}
+
+.testimonial__item h5 {
+	color: #1a1a1a;
+	margin-bottom: 20px;
+}
+
+.testimonial__item .rating {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.testimonial__item .rating i {
+	font-size: 14px;
+	color: #E9AD28;
+	margin-left: -4px;
+}
+
+.testimonial__item p {
+	margin-bottom: 28px;
+}
+
+.testimonial__author {
+	overflow: hidden;
+}
+
+.testimonial__author__title h5 {
+	color: #5392f9;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.testimonial__author__title span {
+	font-size: 16px;
+	color: #777C81;
+}
+
+.testimonial__author__social {
+	text-align: right;
+	padding-top: 10px;
+}
+
+.testimonial__author__social a {
+	font-size: 14px;
+	color: #777C81;
+	margin-right: 28px;
+}
+
+.testimonial__author__social a:last-child {
+	margin-right: 0;
+}
+
+.slide-num {
+	position: absolute;
+	left: 0;
+	bottom: -70px;
+}
+
+.slide-num span {
+	font-size: 24px;
+	color: #1a1a1a;
+	font-weight: 500;
+}
+
+.slide-num span:last-child {
+	position: absolute;
+	left: 135px;
+}
+
+.slider__progress {
+	position: absolute;
+	width: 85px;
+	height: 4px;
+	left: 41px;
+}
+
+.slider__progress span {
+	display: block;
+	
+	height: 4px;
+	background: #5392f9;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}

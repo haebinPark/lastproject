@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    font-size: 14px;
+}
+.container > .card-title > h4{
+    font-family: 'noto-b';
+    font-size: 25px;
+    font-weight: 600;
+}
+.container > .card-body{
+    padding-top: 70px;
+    padding-bottom: 80px;	
+}
+.container > .card-body > .form-signin > .check > .form-check{
+    margin-left: 0.2px;
+}
+.container > .card-body > .form-signin > .check > .form-check > div > label{
+    display:inline-block; width:100px;
+}
+.section-row{
+    margin: 20px auto;
+}
+.section-row > .table > .tbody > .col-md-4 > a{
+    margin: 0 15px;
+}
+.join > .container > .card-body > .form-signin > .filebox > label{
+    display: inline-block;
+    padding: 0.5em 0.75em;
+}
+.join > .container > .card-body > .form-signin > .filebox input[type="file"]{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.align-items-center{
+	margin-bottom:20px !important;
+}
+
+.col-md-2{
+	font-size:14px;
+}
